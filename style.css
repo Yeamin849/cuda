@@ -1,0 +1,552 @@
+/***********************************
+        header design start from hear 
+ ************************************/
+
+.header-area{
+    background:#87509c;
+    padding: 50px 0;
+}
+
+.header-top:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.menu-area{
+    width: 70%;
+    float: left;
+}
+.menu-area ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.menu-area ul li{
+    float: left;
+}
+.menu-area ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.menu-area ul li a{
+    padding: 5px 20px;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.menu-area ul li a:hover, .menu-area ul li a.active{
+    background: #643a79;
+}
+.heder-bottom{
+    padding: 100px 0;
+    text-align: center;
+}
+.heder-bottom h2{
+    color: #f7f3ea;
+    font-size: 36px;
+    line-height: 15px;
+}
+.call-to-action a{
+    background: #eb7d4b;
+    padding: 10px 60px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #cB6a40;
+}
+.call-to-action a:hover{
+    box-shadow: 0px 0px 0px #cB6a40;
+}
+
+/************* header design end hear ****************/
+
+/********************************************
+     services area design from hear 
+***********************************************/
+.servicec-area{
+    background: #17c2a4;
+    padding: 50px 0;
+}
+.servicec-area .container > h2{
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.servicec-area .container > p{
+    font-size: 19px;
+    color: #fff;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
+.servicec-area hr{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #14a58c;
+    width: 10%;
+}
+.services-boxes{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.services-boxes .box h2{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.services-boxes .box p{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}
+/************* services area design end hear ***********/
+
+/***********************************************
+         tem area design from hear 
+*************************************************/
+
+
+.tem-area{
+    background: #e7f1f8;
+    padding: 50px 0;
+}
+.tem-area .container > h2{
+    text-align: center;
+    color: #3c4761;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 50px;
+    letter-spacing: 3px;
+}
+.tem-area hr{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #c8d9e5;
+    width: 10%;
+}
+.tem-area .container > p{
+
+    font-size: 19px;
+    color: #5d677b;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.tem-member{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.member .member-image{
+    height: 200px;
+    width: 200px;
+}
+.member img{
+    border-radius: 50%;
+}
+.tem-member .member h2{
+    color: #3c4761;
+    text-transform: uppercase;
+   margin-bottom: 10px;
+}
+.member h3{
+    color: #30bae7;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.tem-member .member p{
+    color: #4d586f;
+    width: 80%;
+    margin: auto;
+    
+}
+.member ul{
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+.member ul li {
+    display: inline-block;
+}
+.member ul li i{
+    color: #fff;
+    background: #BBD1DE;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+/****************** tem area design end hear ******************/
+
+/****************************************************
+             skill area design from hear 
+********************************************************/
+
+
+.skill-area{
+    background: #fff;
+    padding: 50px 0;
+}
+.skill-area .container > h2{
+    margin: 0;
+    font-size: 40px;
+    color: #3C4761;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.skill-area .container > p{
+    font-size: 19px;
+    color: #646B7E;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
+.skill-area hr{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #DFE8ED;
+    width: 10%;
+}
+.skill-boxes{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.skill-boxes .box h2{
+    color: #3C4761;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/*************************** skill area design end hear *********************/
+
+/**************************************************************
+                    preotfolio area design from hear
+ ************************************************************ */
+.preotfolio-area{
+    background: #FFDD99;
+    padding: 50px 0;
+}
+.preotfolio-area .container > h2{
+    margin: 0;
+    font-size: 40px;
+    color: #393939;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.preotfolio-area .container > p{
+    font-size: 19px;
+    color: #60584A;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
+.preotfolio-area hr{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #E5C37F;
+    width: 10%;
+}
+.preotfolio-boxes{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.preotfolio-boxes .box h2{
+    color: #60584A;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 18px;
+}
+.protfolio-menu ul{
+   margin-top: 30px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+   
+}
+.protfolio-menu ul li{
+    display: inline-block;
+}
+.protfolio-menu ul li a{
+    color: #393939;
+    padding: 5px 25px;
+    display: block;
+    background: #EBC985;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.protfolio-menu ul li a:hover{
+    background: #fff;
+}
+.prot-image img{
+    width: 100%;
+    
+}
+.prot-image{
+    width: 480px;
+    margin: auto;
+}
+
+.call-to-prot a{
+    background: #17C2A4;
+    padding: 10px 60px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #14A58C;
+}
+
+.call-to-prot a:hover{
+    background:  #14A58C;
+}
+
+/*********************preotfilo area design end hear********************** */
+
+/*********************************************************
+            testimonial area design from hear
+************************************************************** */
+
+.textimonial-area{
+    background: #D74680;
+    padding: 50px 0;
+}
+.textimonial-area .container > h2{
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.textimonial-area .container > p{
+    font-size: 19px;
+    color: #fff;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
+.textimonial-area hr{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #B73C6D;
+    width: 10%;
+}
+.textimonial-boxes{
+    text-align: center;
+    margin-top: 50px;
+}
+.textimonial-boxes .box{
+    
+    padding: 10px 0;
+}
+
+.testi-image{
+    width: 100px;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+    padding-right: 10px;
+}
+.testi-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.testi-cont{
+    width: 300px;
+    overflow: hidden;
+    text-align: left;
+    
+}
+.testi-cont q{
+    color: #fff;
+    font-style: italic;
+    font-size: 18px;
+}
+.testi-cont h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22;
+    margin-bottom: 5px;
+}
+.testi-cont h3{
+    color: #ffdd99;
+    font-weight: normal;
+   
+    margin-top: 5px;
+    
+}
+
+
+
+/********************************************************
+                contact area design from hear
+*********************************************************** */
+
+.contact-area{
+    background: #3C5499;
+    padding: 50px 0;
+}
+.contact-area .container > h2{
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.contact-area .container > p{
+    font-size: 18px;
+    color: #fff;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    
+
+}
+.contact-area hr{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid #273A71;
+    width: 10%;
+}
+.contact-boxes{
+    width: 80%;
+    margin: auto;
+}
+.username {
+    content: '';
+    display: block;
+    clear: both;
+}
+.username input{
+    font-size: 20px;
+    background: #273A71;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.username input:first-child{
+    width: 49%;
+    float: left;
+}
+.username input:last-child{
+    width: 49%;
+    float: right;
+}
+.contact-boxes textarea{
+    width: 100%;
+    font-size: 20px;
+    background: #273A71;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.call-to-cont{
+    text-align: center;
+}
+.call-to-cont input{
+    background: #30BAE7;
+    padding: 10px 60px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #2AA1C9;
+    border: 1px solid transparent;
+}
+
+.call-to-cont input:hover{
+    background:  #2AA1C9;
+}
+/****************************************************
+                footer area design hear
+ *******************************************************/
+.footer-area{
+    background: #344B8E;
+    padding: 40px 0;
+}
+.footer-menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+.footer-menu ul li a{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: bolder;
+}
+.footer-menu ul li a:hover{
+    color: #30BAE7;
+}
+
+/***********************************************************
+                        jqery plagin start from hear 
+ ************************************************************/
+
+.pie-title-center {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+  }
+  
+  .pie-value {
+    display: block;
+    position: absolute;
+    font-size: 48px;
+    height: 40px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -20px;
+    line-height: 40px;
+    color: #3C4761;
+  }
